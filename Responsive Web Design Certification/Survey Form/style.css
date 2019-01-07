@@ -1,0 +1,58 @@
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    background: rgb(120, 106, 207);
+}
+h1, p{
+    text-align: center;
+}
+#container {
+    margin: 0 auto;
+    padding: 30px;
+    height: auto;
+    max-width: 900px;
+    color: rgb(88, 88, 88);
+    border-radius: 5px;
+    background: rgb(250, 250, 250);
+}
+.row, li {
+    display: flex;
+    align-items: center;
+}
+.labels {
+    margin: 20px 10px;
+    width: 40%;
+    text-align: end;
+}
+.user, input [type="radio"] {
+    width: 48%;
+    text-align: start;
+    align-items: flex-start;
+}
+#radio_question, #checkbox_question, #comments_question {
+    align-items: flex-start;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+input {
+    padding: 5px;
+    height: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+fieldset {
+    border: none;
+}
+fieldset input {
+    width: 300px;
+}
+#submit {
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    height: 50px;
+    width: 75px;
+    background: rgb(120, 106, 207);
+    color: #c0c0c0;
+    font-weight: 600;
+}
